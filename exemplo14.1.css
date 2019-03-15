@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#pagina{
+    background-color: blueviolet;
+}
+
+#conteudo{
+    background-color: aquamarine;
+}
+
+#menulateral{
+    background-color: chocolate;
+}
+
+@media screen and(max-width: 900px){
+    #pagina{
+        width: 100%;
+        height: 100%;
+    }
+    #conteudo{
+    width: 80%;
+    height: 100%;
+    float: left;
+    }
+
+    #menulateral{
+        width: 20%;
+        height: 100%;
+        float: left;
+    }
+}
+
+@media screen and(max-width:400px){
+    #menulateral{
+        display: none;
+    }
+    #conteudo{
+        width: 100%;
+        height: 100%;
+    }
+
+    body{
+        font-size: 120%;
+    }
+}
+
+

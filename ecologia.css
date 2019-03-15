@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+ text-decoration: none;
+ font-family: "calibri";
+ color:black;
+}
+
+body{
+    background-color: #C4DFC1;
+}
+
+#imagem{
+   position: relative; 
+   left: 682px;
+   top: 90px; 
+   opacity: 0.6;
+}
+
+#bemvindo{
+    font-family:"Berlin Sans FB";
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    background-color: #85C98F;
+    height: 50px;
+    margin: 0px;
+    color: white; 
+}
+
+#bemvindo p{
+    padding-top: 8px;
+}
+
+nav{
+    background-color: #44814E;
+    width: 350px;
+    height: 600px;
+    position: fixed;
+    float: left;
+    bottom: 1106px;
+    top: 50px
+    
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+a{
+    background-color: #85C98F;
+    display: block;
+    padding: 20px;
+    color: #44814E;
+}
+
+a:hover{
+    background-color: #A1CBA7;
+}
+
+#bloco{
+    border: 5px solid rgba(255,255,255);
+    border-radius: 10px;
+    width: 400px;
+    height: 290px;
+    position: relative;
+    left: 1295px;
+    bottom: 510px;
+    z-index: 2;
+    font-size: 18px;
+    text-align: center;
+    opacity:0.7;
+    font-size:  25px;
+    color: white;
+}
+#mar{
+    position: relative;
+    left: 1250px;
+    bottom: 575px;
+}
+
+#meioambiente{
+    position: relative;
+    left: 1400px;
+    bottom: 455px;
+}
+
+#bloco p{
+    padding-top: 100px;
+    margin-left: 5px 5px;
+}

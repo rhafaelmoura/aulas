@@ -1,0 +1,39 @@
+#div1{
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+ 
+}
+#div2{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+#div3{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    float: left;
+ 
+}
+#div4{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+}
+
+#div5{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#div6{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    float: left;
+}

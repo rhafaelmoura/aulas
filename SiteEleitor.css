@@ -1,0 +1,67 @@
+body{
+    margin:0; padding: 0; background:#ddd;
+}
+
+#pagina{
+    margin: 1em auto; width: 950px; background: #fff;
+}
+
+#cabecalho{
+    font-family: "BankGothic Md Bt";
+    font-size: 40px;
+    margin: 6px;
+    background: #48b;
+    height: 80px;
+}
+
+#cabecalho p{
+    padding-top: 18px;
+    color:white;
+    text-align: center;
+}
+
+#menusuperior{
+    font-family: "calibri";
+    margin: 5px;
+    background: #B1C4EB;
+    height: 135px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#menulateral{
+    margin: 5px;
+    float:right;
+    width: 400px;
+    height: 350px;
+    background: #8CA3D3;
+}
+
+#bloco1{
+    background: #48b;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 700px;
+    z-index: 1;
+}
+
+#conteudo{
+    float: left;
+    width: 400px;
+    height: 350px;
+    margin: 5px;
+    background: #83A7F2;
+    position: relative;
+    bottom: 100px;
+}
+
+#rodape{
+    font-family: "calibri";
+    font-size: 15px;
+    text-align: center;
+    margin: 7px;
+    padding: 5px;
+    clear: both;
+    background: #48b;
+}

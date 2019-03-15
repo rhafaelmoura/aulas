@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMULÁRIO HTML5</title>
+</head>
+<body>
+    <form>
+        <label for="cor">Escolha a cor</label>
+        <input type="color" name="cor" id="cor">
+        <br>
+        <hr>
+        <!-- Inicio do Input Data e Hora-->
+        <label for="Nascimneto">Data de Nascimneto</label>
+        <input type="date" name="nascimento" id="nascimento">
+        <hr>
+        <label for="Evento">Data e Hora do Evento</label>
+        <input type="datetime-local" name="evento" id="evento">
+        <hr>
+        <!-- Fim do Input-->
+
+        <!-- Inicio do Input-->
+        <label for="mes-evento">Mês dp Evento</label>
+        <input type="month" name="mes-evento" id="mes-evento">
+        <br><hr>
+        <label for="email">Seu E-mail:</label>
+        <input type="email" name="email" id="email">
+        <hr>
+        <!-- Fim do Input-->
+
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" name="quantidade" id="quantidade" value="0" min="0" max="10">
+        <hr>
+        <label for="avaliacao">Avaliação do Site:</label>
+        <input type="range" name="avaliacao" id="avaliacao" value="3" min="0" max="5">
+        <hr>
+
+        <label for="procurar">Pesquisar no Site:</label>
+        <input type="search" name="procurar" id="procurar">
+        <hr>
+        <button type="submit">Cadastrar</button>
+
+    </form>
+</body>
+</html>
